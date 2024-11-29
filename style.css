@@ -19,7 +19,7 @@ body {
 }
 
 form label {
-    color: #000; /* цвет текста кальулятора */
+    color: whitesmoke; /* цвет текста кальулятора */
 }
 
 #answerDiv {
