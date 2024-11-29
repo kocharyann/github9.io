@@ -19,12 +19,12 @@ body {
 }
 
 form label {
-    color: whitesmoke; /* цвет текста кальулятора */
+    color: white; /* цвет текста кальулятора */
 }
 
 #answerDiv {
     background-color: #5e0808; /* цвет фона ответа */
-    color: mintcream; /* цвет текста калькулятора */
+    color: white; /* цвет текста калькулятора */
 }
 
 /*# sourceMappingURL=style.css.map */
