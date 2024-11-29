@@ -2,10 +2,10 @@ const productsMap = {
     "product1": {price: 100, checkbox: false, select: false},  // только товар
     "product2": {price: 120, checkbox: true, select: false}, // с чекбоксом
     "product3": {price: 140,checkbox: false, select: true} // с селектом услуг
-}; // Менять только цену
+}; 
 const selectMap = {"select1": 10, "select2": 20, "select3": 30, "select4": 40};
-// Менять только цену
-const checkboxPrice = 5; // цена услуги чекбокса
+
+const checkboxPrice = 5; 
 window.addEventListener("DOMContentLoaded", function () {
     const quantityInput = document.getElementById("quantityInput");
     const radio = Array.from(document.getElementsByName("radio-type"));
@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", function () {
             }
         }
         if (isNaN(price)) {
-            answerDiv.innerText = `Не верный ввод`; // перефразировать
+            answerDiv.innerText = `Не верный ввод`; 
         } else {
             answerDiv.innerText =
                 `Price: ${price}`;
